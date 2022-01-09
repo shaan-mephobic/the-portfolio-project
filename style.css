@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Thin.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Bold.ttf");
+    font-weight: 700;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/space.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+h3 {
+    color: white;
+    font-family: "Raleway";
+    transition: letter-spacing 4s;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.36em;
+    /* letter-spacing: calc(100vw / 26); */
+    animation: airplane ease-in-out 2.5s reverse;
+    max-lines: 1;
+}
+
+@keyframes airplane {
+    100% {
+        letter-spacing: calc(100vw / 26);
+        /* letter-spacing: 0.36em; */
+    }
+}
+
+h6 {
+    color: white;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+p.multi {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+strong {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.gradient {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(17, 17, 17), rgb(7, 7, 7));
+    background-size: cover;
+    background-position: center;
+}
+
+.content2 {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display:flex; */
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    background: rgb(14, 14, 14);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 20px #000;
+    border-top: 2px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card img {
+    width: 100px;
+}
+
+.card button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    color: #fff;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.third {
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(180deg, #100F12 60%, #851c20 200%); */
+    background-image: linear-gradient(180deg, #100F12 60%, #851c20 200%);
+    background-size: cover;
+    background-position: center;
+}
+
+.content3{
+    position: absolute;
+	margin: 0 auto;
+    top: 240%;
+    left: 8%;
+    transform: translateY(-50%);
+    /* width: 1130px; */
+	/* max-width: 95%; */
+	/* margin: 0 auto; */
+	/* display: flex; */
+	/* align-items: center; */
+	/* justify-content: space-around; */
+}
+
+.content4 {
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display:flex; */
+}
+
+.column{
+    padding: 100px 0px 0px 0px;
+    display:flex;
+}
