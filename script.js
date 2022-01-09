@@ -1,3 +1,7 @@
+function openTab(url){
+  window.open(url,'_blank');
+}
+
 var VanillaTilt = (function () {
     'use strict';
     
