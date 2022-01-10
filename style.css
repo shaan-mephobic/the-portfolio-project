@@ -146,24 +146,22 @@ strong {
     border-left: 2px solid rgba(255, 255, 255, 0.25);
 }
 
-/* .center{ */
-    /* display: block; */
-    /* margin:auto; */
-    /* display: flex;
-    justify-content: center; */
-    /* position: relative;      
-    display: inline-block;      
-    left: 50%;                  
-    transform: translateX(-50%);   */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* width: 50%; */
-/* } */
+.myself {
+    width: 260px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/illenium.jpg");
+    filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.4));
+    border-radius: 5px;
+    left:50%;
+    transform:translate(50%);
+}
 
 .card img {
-    top:50%;
+    top: 50%;
     /* bottom:50%; */
-    left:50%;
+    left: 50%;
     position: absolute;
     width: 100px;
     /* height: 20px; */
@@ -210,17 +208,12 @@ strong {
 .content4 {
     position: absolute;
     padding: 20px;
-    /* top: 300%; */
-    /* top: calc(300% - 130px); */
-    bottom: -200%;
-    /* justify-content: end; */
+    bottom: -200vh;
     left: 50%;
-    /* top:calc(100vh + 100vh + 100vh); */
     transform: translateX(-50%);
-    /* display:flex; */
 }
 
 .column {
-    padding: 100px 0px 0px 0px;
+    padding: 70px 0px 0px 0px;
     display: flex;
 }
