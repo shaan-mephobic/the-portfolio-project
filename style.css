@@ -1,4 +1,28 @@
 @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
     font-family: "Montserrat";
     src: url("fonts/Montserrat-Thin.ttf");
     font-weight: 100;
@@ -18,31 +42,7 @@
 
 @font-face {
     font-family: "Montserrat";
-    src: url("fonts/Montserrat-Medium.ttf");
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url("fonts/Montserrat-SemiBold.ttf");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Montserrat";
     src: url("fonts/Montserrat-Bold.ttf");
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: "Raleway";
-    src: url("fonts/Raleway-SemiBold.ttf");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Raleway";
-    src: url("fonts/Raleway-Bold.ttf");
     font-weight: 700;
 }
 
@@ -136,17 +136,39 @@ strong {
 .card {
     width: 100px;
     height: 100px;
-    padding: 20px;
+    padding: 15px;
+    justify-content: center;
     border-radius: 50%;
     background: rgb(14, 14, 14);
     backdrop-filter: blur(4px);
     box-shadow: 0 0 20px #000;
-    border-top: 2px solid rgba(255, 255, 255, 0.25);
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 3px solid rgba(255, 255, 255, 0.2);
+    border-left: 2px solid rgba(255, 255, 255, 0.25);
 }
 
+/* .center{ */
+    /* display: block; */
+    /* margin:auto; */
+    /* display: flex;
+    justify-content: center; */
+    /* position: relative;      
+    display: inline-block;      
+    left: 50%;                  
+    transform: translateX(-50%);   */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 50%; */
+/* } */
+
 .card img {
+    top:50%;
+    /* bottom:50%; */
+    left:50%;
+    position: absolute;
     width: 100px;
+    /* height: 20px; */
+    transform: translate(-50%, -50%);
+
 }
 
 /* .card button {
