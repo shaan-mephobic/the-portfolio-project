@@ -48,7 +48,8 @@
 
 body {
     margin: 0;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(20, 20, 20); */
+    background-image: linear-gradient(to bottom right, rgb(17, 17, 17), rgb(7, 7, 7));
     font-family: "Montserrat";
 }
 
@@ -72,6 +73,10 @@ h1 {
     font-size: 90px;
     font-family: "Raleway";
     font-weight: 700;
+}
+
+.space-out{
+    width: 88vw;
 }
 
 h3 {
