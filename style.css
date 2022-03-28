@@ -59,7 +59,7 @@ body {
     margin: 0;
     height: 100vh;
     width: 100%;
-    background-image: url(images/space.jpg);
+    background-image: url(/images/bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -159,13 +159,9 @@ strong {
 }
 
 .gradient {
-    /* height: 100vh; */
     width: 100%;
-    /* background-color: aqua; */
 	padding: 120px 0px;
     background-image: linear-gradient(to bottom right, rgb(17, 17, 17), rgb(7, 7, 7));
-    /* background-size: cover; */
-    /* background-position: center; */
 }
 
 .content2 {
@@ -201,7 +197,7 @@ strong {
     height: 260px;
     background-size: cover;
     background-position: center;
-    background-image: url("images/illenium.jpg");
+    background-image: url("images/stuz0r.jpg");
     filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.4));
     border-radius: 8px;
     /* left: 50%; */
@@ -236,7 +232,7 @@ strong {
     width: 100%;
     /* background-image: linear-gradient(180deg, #100F12 60%, #851c20 200%); */
     /* background-image: linear-gradient(180deg, #100F12 60%, #a50d33 200%); */
-    background-image: linear-gradient(180deg, #0f0e13 60%, #5e1f1f 200%);
+    background-image: radial-gradient(100% 316.05% at 0% 0%, #082f4b 0%, #000305 100%);
     background-size: cover;
     background-position: center;
 }
@@ -248,6 +244,11 @@ strong {
     /* top: 240%; */
     /* left: 8%; */
     /* transform: translateX(20%); */
+}
+
+.content3 b{
+    /* font-style: italic; */
+    font-weight: 500;
 }
 
 .content4 {
