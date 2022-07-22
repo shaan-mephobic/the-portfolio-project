@@ -86,17 +86,17 @@ body {
     margin: 0;
     height: 100vh;
     width: 100%;
-    background-image: url(/images/bg1.jpg);
+    background-image: url(images/ign_unsplash26.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .content {
     position: absolute;
-    top: 47.5%;
+    top: 50%;
     left: 8%;
     /* transform: translate(0%,40%); */
-    transform: translateY(-47.5%);
+    transform: translateY(-50%);
 }
 
 #loader {
@@ -170,6 +170,39 @@ h6 {
 p {
     color: white;
     font-size: 18px;
+}
+
+.circles {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.fail {
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+}
+
+
+.circles,
+.fail {
+    transition: opacity 0.2s ease-in;
+
+
+}
+
+.wrap:hover .circles {
+    opacity: 0;
+
+
+}
+
+.wrap:hover .fail {
+    opacity: 1;
+
+
 }
 
 p.multi {
