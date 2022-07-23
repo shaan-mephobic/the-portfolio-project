@@ -189,20 +189,14 @@ p {
 .circles,
 .fail {
     transition: opacity 0.2s ease-in;
-
-
 }
 
 .wrap:hover .circles {
     opacity: 0;
-
-
 }
 
 .wrap:hover .fail {
     opacity: 1;
-
-
 }
 
 p.multi {
